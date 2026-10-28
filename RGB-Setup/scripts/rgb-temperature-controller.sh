@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # RGB-only controller. Installed at /opt/gpu-rgb/rgb-temperature-controller.sh
 set -u
-RGB_CONTROLLER="/opt/gpu-rgb/rgb-placa.py"
+#RGB_CONTROLLER=/opt/gpu-rgb/rgb-placa.py"
 INTERVAL="${INTERVAL:-5}"
 while true; do
   TEMP="$(nvidia-smi --query-gpu=temperature.gpu --format=csv,noheader,nounits 2>/dev/null | head -n 1 || true)"

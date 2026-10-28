@@ -24,7 +24,7 @@ fi
 export DEBIAN_FRONTEND=noninteractive
 export NEEDRESTART_MODE=a
 
-RGB_REPO="https://github.com/Picachuchu69/msi-mystic-light-b860-x870-linux.git"
+RGB_REPO="https://github.com/khuviram8755/RGB.git"
 LCD_REPO="https://github.com/Nortank12/deepcool-digital-linux.git"
 
 WORK="/var/tmp/rgb-lcd-setup"
